@@ -7,6 +7,12 @@
 - [x] iOS SDK 1.9.2-nopay
 - [x] Android SDK 6.8.0
 
+## Fork声明
+- 本人出于兼容性考虑，仅对原库进行了SDK升级，并未暴露新的功能或接口，目前Android/IOS均为最新版本SDK。
+- 如有需要，您可以自行桥接以暴露接口。
+- 另外，您可以通过查看本人关于SDK升级的提交记录，来自行更换SDK到其他版本。例如：将nopay IOS SDK 更新至标准版本。
+- 参考文档：[微信开放平台-接入指南](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html)。
+
 ## 前言
 
 首先向各位声明，本库是在 [react-native-wechat](https://github.com/yorkie/react-native-wechat) 基础上进行重写。
